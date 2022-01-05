@@ -1,1 +1,5 @@
+# venv
 poetry.lock
+
+# IDE settings
+.vscode/
