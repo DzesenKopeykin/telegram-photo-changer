@@ -11,3 +11,4 @@ telegram_client.session
 
 # others
 .mypy_cache
+__pycache__/
