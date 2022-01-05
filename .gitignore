@@ -1,5 +1,9 @@
 # venv
 poetry.lock
+.venv
+.env
 
 # IDE settings
 .vscode/
+
+.mypy_cache
