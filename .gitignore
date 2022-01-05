@@ -6,4 +6,8 @@ poetry.lock
 # IDE settings
 .vscode/
 
+# pyrogram session
+telegram_client.session
+
+# others
 .mypy_cache
