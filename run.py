@@ -22,7 +22,5 @@ def change_photo(client: Client) -> None:
 
 
 if __name__ == "__main__":
-    print("Running...")
-
     with client:
         change_photo(client)
