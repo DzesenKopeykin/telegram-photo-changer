@@ -9,6 +9,7 @@ readme = "README.md"
 python = ">=3.10,<3.11"
 python-dotenv = "0.19.2"
 Pyrogram = "1.2.20"
+Pillow = "9.0.0"
 
 [tool.poetry.dev-dependencies]
 black = "21.12b0"
