@@ -15,6 +15,9 @@ def change_photo(client: Client) -> None:
     fp = BytesIO()
     image.save(fp, "png")
     fp.name = "1.png"
+
+    photos = client.get_profile_photos("me", limit=1)
+    client.delete_profile_photos(photos[0].file_id)
     client.set_profile_photo(photo=fp)
 
 
