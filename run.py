@@ -1,9 +1,7 @@
-from dotenv import load_dotenv
+from client import client
 
 
 if __name__ == "__main__":
     print("Running...")
 
-    load_dotenv(".env")
-
-    import client  # noqa
+    client.run()
